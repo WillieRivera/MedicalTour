@@ -1,0 +1,102 @@
+.side_menu{
+    background-color: rgb(76,128,229);
+}
+.faq_menu li{
+   display: block;
+}
+
+.faq .row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.faq_menu li img{
+    width:50px;
+    margin-right:5px;
+    margin-top:-16px;
+}
+
+.faq .side_menu{
+    padding:100px 10px;
+}
+
+.faq_menu li{
+    margin-bottom: 45px;
+    color:white;
+}
+
+.faq_menu li span{
+
+    padding:8px 6px;
+    border-radius:3px;
+    font-size: 33.333px;
+    font-family: "OpenSans";
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+.faq_menu li:nth-child(2n).active span {
+    background: rgb(252,103,0);
+}
+
+.faq_menu li:nth-child(2n+1).active span {
+    background: rgb(140,198,62);
+}
+
+.faq .about_info{
+    width:90%;
+    margin:0 auto;
+}
+
+.read_more_box{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.read_more_box .read_caption,.read_more_box .read_content{
+    border-radius: 3px;
+}
+
+.read_caption{
+
+    color:white;
+    padding:16px 12px;
+    background-color:rgb(140,198,62);
+    font-size: 29.167px;
+    font-family: "OpenSans";
+    font-weight: bold;
+    
+}
+
+.read_more_box .read_content{
+
+    padding:8px 18px;
+    margin-top:3px;
+    background-color:rgb(238,242,253);
+    font-size: 25px;
+    font-family: "OpenSans";
+    color: rgb( 123, 119, 119 );
+    
+}
+
+.faq .about_info .caption{
+    font-size:71px;
+}
+
+.read_more_box .read_content button,
+.read_more_box .read_content button:hover,
+.read_more_box .read_content button:focus
+{
+    text-decoration: none;
+    font-size: 29.167px;
+    font-family: "OpenSans";
+    color: rgb( 76, 128, 229 );
+    outline:none;  
+}
+
+.faq_menu a{
+    color:white;
+    text-decoration:none;
+}

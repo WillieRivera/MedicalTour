@@ -1,0 +1,113 @@
+
+
+
+.footer .row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .footer{
+    padding-top:50px;
+  }
+  
+  
+  
+  
+.footer .row .caption{
+    font-size: 25px;
+    font-family: "Open Sans";
+    color: rgba( 0, 0, 0, 0.78 );
+    font-weight: 900;
+    line-height: 0.96;
+    margin-top:20px;
+    margin-bottom:20px;  
+}
+
+.footer .content{
+  padding-left:10px;
+}
+
+.footer .content .nav-link,.footer .content span{
+  padding-left:0;
+  font-size: 16.833px;
+  font-family: "Open Sans";
+  color: rgba( 0, 0, 0, 0.749 );
+  
+}
+
+.footer .content li{
+  list-style: none;
+}
+
+.footer .nav-link{
+  padding:0.8rem 1rem
+}
+
+.footer .apple_logo,.footer .google_logo{
+  width:153px;
+  height:54px;
+  cursor:pointer;
+}
+
+  
+
+.footer>.row{
+  align-items: center;
+}
+
+.footer .my-xl-none{
+  padding-right:30px;
+}
+
+@media (max-width: 1600px){
+  .my-xl-none {
+      display: none;
+  }
+}
+
+
+.google_logo{
+  margin-bottom: 15px;
+}
+
+.footer .logos{
+  text-align: center;
+  padding-left:0px;
+}
+
+
+.footer .copyright_contact{
+  padding-left:3%;
+  padding-right:3%;
+  background-color: black;
+  color:white;
+  padding-top:40px;
+  padding-bottom:40px;
+  border-top:2px solid rgb(118,172,45);
+}
+
+.footer .policy{
+  text-align: center;
+}
+
+.footer .contact{
+  color:rgb(102,153,254);
+  text-align: center;
+}
+
+
+.contact .fa-facebook-f{
+  margin-right: 40px;
+}
+
+.contact .fa-twitter{
+  margin-right: 40px;
+}
+
+.footer {
+  border-top:2px solid rgb(118,172,45);
+}
+
+.copyright_contact .contact>svg{
+  cursor: pointer;
+} 

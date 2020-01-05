@@ -1,0 +1,40 @@
+
+.banner{
+    position:relative;
+  }
+  
+.banner img{
+  width:100%;
+}
+
+.banner .row{
+  margin-right:0px;
+  margin-left:0px;
+  position: absolute;
+  bottom:15%;
+  width:100%;
+}
+
+
+
+.row  .btn_list{
+  margin:0 auto;
+}
+.row .btn_list .btn{
+  background-color: rgb(252,103,0);
+  border-radius:18px;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+
+.row .btn_list .btn_doctor{
+    margin-right:30px;
+}
+
+#root > .mycontainer .btn_list .btn,
+#root > .mycontainer .btn_list .btn:active,
+#root > .mycontainer .btn_list .btn:focus
+{
+  box-shadow: -1px 5px 1px rgba(0, 0, 0, .2);
+}

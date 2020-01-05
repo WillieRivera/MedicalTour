@@ -1,0 +1,30 @@
+.navbar {
+    padding:0;
+    font-size:'25px';
+    font-family:'Tahoma';
+  }
+  
+  
+  
+  #root > .mycontainer .navbar .nav-item .language .btn{
+    background: none;
+    color: black;
+  }
+  
+  #root > .mycontainer .header{
+    padding-top:0px;
+    padding-bottom: 25px;
+  }
+  
+  
+  .header .navbar-brand img{
+    max-width:100%;
+  }
+  .header .navbar-collapse>.navbar-nav{
+    margin:0 auto;
+  }
+
+  .header{
+    border-bottom:2px solid rgb(118,172,45);
+  }
+  

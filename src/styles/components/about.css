@@ -1,0 +1,26 @@
+.about_info .caption{
+
+    font-size: 83.333px;
+    font-family: "Montserrat";
+    color: rgba( 0, 0, 0, 0.988 );
+    font-weight: bold;
+
+}
+
+.about_info .caption_footer{
+
+    font-size: 55px;
+    font-family: "Montserrat";
+    color: rgba( 0, 0, 0, 0.988 );
+    font-weight: bold;
+
+}
+
+
+@media(max-width:1200px){
+
+    .about_info .img_side{
+        display:none;
+    }
+   
+}

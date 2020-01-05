@@ -1,0 +1,124 @@
+.carousel .carousel-item img{
+    width:100%;
+}
+
+
+.carousel .carousel-indicators li{
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+.carousel .carousel-indicators .active{
+    background-color:rgb(252,103,0)
+}
+
+
+.carousel .btn{
+    border-radius: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: -1px 5px 1px rgba(0, 0, 0, .2);
+}
+
+
+.carousel .carousel-item li{
+    text-align:left;
+    width:auto;
+    float: left;
+    clear: both;
+}
+
+
+.carousel-caption{
+    bottom:10%;
+}
+
+.carousel .carousel-item ul{
+    display:inline-block;
+}
+
+
+.carousel-item div{
+    text-align: center;
+}
+
+
+.clear{
+    clear:both;
+}
+
+.carousel .carousel-item ul {
+    list-style: none; /* Remove default bullets */
+}
+
+.carousel .carousel-item  ul li::before {
+    background-color:rgb(252,103,0);
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: -3px;
+    height: 24px;
+    width: 24px;
+}
+
+.carousel-item .carousel-caption{
+    right:0;
+    left:0;
+}
+.carousel .carousel-item  ul li{
+
+    font-size: 33.333px;
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+
+      
+}
+
+.carousel .carousel-item h2{
+
+    font-size: 91.667px;
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+    text-shadow: 5.5px 9.526px 18px rgb( 0, 0, 0 );
+      
+}
+
+.carousel .carousel-item h3{
+
+        font-size: 45.833px;
+        font-family: "Montserrat";
+        color: rgb( 255, 255, 255 );
+        font-weight: bold;
+        line-height: 0.655;
+        text-shadow: 2.5px 4.33px 13px rgb( 0, 0, 0 );
+        -moz-transform: matrix( 1.00000001373955,0,0,0.99999995501287,0,0);
+        -webkit-transform: matrix( 1.00000001373955,0,0,0.99999995501287,0,0);
+        -ms-transform: matrix( 1.00000001373955,0,0,0.99999995501287,0,0);
+      
+}
+
+.carousel .carousel-item  ul{
+    margin-top:40px;
+}
+
+@media (max-width: 1600px){
+    .carousel .carousel-item h2{
+        font-size:51.667px;
+    }
+    .carousel .carousel-item h3{
+        font-size:25.833px;
+    }
+    .carousel .carousel-item  ul li{
+
+        font-size: 18.333px;
+    }
+}
+
+

@@ -1,0 +1,49 @@
+
+.doctor_profile_card{
+    background-color: rgb(239, 238, 226);
+    padding:5px 5px;
+}
+.doctor_profile_card .left{
+    float: left;
+}
+.doctor_profile_card .right{
+    float:right;
+}
+
+.doctor_profile_card .photo_arrow .left .avatar,
+.doctor_profile_card .photo_arrow .left .description
+{
+    float:left;
+}
+
+.doctor_profile_card .description span{
+    display:block;
+}
+
+.doctor_profile_card .description{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.doctor_profile_card .arrow{
+    font-size:18px;
+}
+
+.doctor_profile_card .travellers svg{
+    color:#d0d004;
+    margin-top:-8px;
+}
+
+.doctor_profile_card .home{
+    margin-right:25px;
+}
+.doctor_profile_card .avatar{
+    margin-right: 5px;
+}
+.avatar img{
+    height:100px;
+}
+
+.doctor_profile_card {
+    margin-bottom: 10px;
+}

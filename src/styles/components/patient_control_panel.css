@@ -1,0 +1,72 @@
+.patient_control_sidebar ul li{
+    display:block;
+    text-align: center;
+    color:white;
+    margin-bottom:40px;
+    font-size:24px;
+}
+.patient_control_sidebar ul{
+    padding:0px;
+}
+.patient_control_sidebar{
+    padding:40px 25px;
+    background-color:rgb(140,198,62);
+}
+
+.doctor_search_box{
+    padding-top:70px;
+}
+
+.doctor_search_box .btn{
+    background-color: rgb(238,242,253)!important;
+    color:black!important;
+    padding-top:8px;
+    padding-bottom:8px;
+    width:100%;
+}
+
+.doctor_search_box .row{
+    margin-bottom:10px;
+}
+
+
+.doctor_search_box .row>div{
+    text-align: center;
+    width: 100%;
+}
+
+.doctor_search_box .two_btn_select>div:first-of-type{
+    padding-left:0px;
+}
+
+.doctor_search_box .two_btn_select>div:last-of-type{
+    padding-right:0px;
+}
+
+.doctor_search_box .btn_search{
+    background-color:rgb(252,103,0)!important;
+    margin-top:30px;
+}
+
+.doctor_search_box .two_btn_select .active{
+    background-color: rgb(76,128,229)!important;
+}
+
+.patient_control_panel .caption_filter{
+
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.doctor_search_box {
+    padding-top: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+

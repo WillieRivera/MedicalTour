@@ -1,0 +1,209 @@
+
+
+.navbar-collapse ul li{
+  text-align: center;
+}
+
+
+.contact_us .caption{
+  font-size: 60px;
+}
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+  content: "";
+}
+
+.colorRedcaption .read_caption{
+  background-color: rgb(252,103,0)!important;
+}
+
+
+@media(min-width:768px){
+
+  .nav_toggle_btn{
+    display: none;
+  }
+  .tourmed_intro{
+    display: none;
+  }
+  .img_notitle{
+    display: none;
+  }
+}
+
+@media (max-width: 992px){
+  .logos .google_logo {
+      margin-bottom: 0px;
+  }
+  .footer div{
+    text-align: center;
+  }
+}
+
+@media(max-width:768px){
+  .nav_btns,
+  .nav_space{
+    display: none;
+  }
+  .nav_toggle_btn{
+    float:right;
+  }
+  body #root > .mycontainer .header{
+    padding-bottom: 0px;
+  }
+  .banner .row {
+    position: relative;
+    text-align: center;
+    background-color: rgb(51,144,255);
+    padding-top:40px;
+    padding-bottom: 20px;
+  }
+  .row .btn_list .btn_doctor {
+      margin-right: 10px;
+  }
+  .row .btn_list .btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  #root .footer {
+    border-top:none;
+  }
+  .tourmed_intro{
+    margin:0 auto;
+    color:white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    border:2px solid white;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .tourmed_intro .text1{
+    font-size:40px;
+    margin-top: -34px;
+    margin-left: -12px;
+  }
+  .tourmed_intro .text3{
+    margin-bottom: -19px;
+    margin-left: 95px;
+  }
+  .tourmed_intro span{
+    background-color: rgb(51,144,255);
+    padding-left:4px;
+    padding-right:4px;
+  }
+  .banner img{
+    height:300px;
+  }
+  .img_title{
+    display: none;
+  }
+  .contact_us .caption{
+    font-size: 32px;
+  }
+
+  .contact_us .caption{
+    text-align: center;
+  }
+  .about_info .caption_footer{
+    font-size:26px;
+  }
+  .faq_menu{
+    padding-left: 10%;
+  }
+  .faq_menu li span{
+    font-size:24px;
+  }
+  .carousel-item>img{
+    display: none;
+  }
+  .carousel-item{
+    color:black!important;
+  }
+  .carousel-indicators{
+    display: none;
+  }
+
+  .carousel .carousel-item h3,.carousel .carousel-item h2{
+    color:black;
+    text-shadow: none;
+  }
+  .carousel .carousel-item ul li{
+    color:black;
+    font-size:14px;
+    font-weight:400;
+    margin-bottom:15px;
+  }
+  .carousel-caption {
+    position: relative;
+  }
+  .carousel-item .carousel-caption ul{
+    padding-left:0px;
+  }
+  .loginform_col{
+    margin-top:50px;
+  }
+  .btn_list a button{
+    margin-bottom: 10px;
+  }
+
+  .doctor_search_box .two_btn_select>div:first-of-type {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-bottom:10px;
+  }
+  .doctor_search_box .two_btn_select>div:last-of-type {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .doctor_search_box .select_item{
+    margin-top:40px;
+  }
+}
+
+@media(max-width:386px){
+  .faq_menu{
+    padding-left: 15px;
+  }
+  .step_status .status_side_bar ul li{
+    font-size: 14px;
+  }
+  .row .btn_list .btn_doctor {
+      margin-right: 0px;
+  }
+}
+
+@media(max-width:320px){
+  .faq_menu{
+    padding-left: 10px;
+  }
+  .faq_menu li span{
+    font-size:18px;
+  }
+}
+.mycontainer{
+  margin:0 auto;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+#root > .mycontainer .btn,
+#root > .mycontainer .btn:active,
+#root > .mycontainer .btn:focus{
+  background-color: rgb(252,103,0);
+  border:none;
+  box-shadow: none;
+}
+
+
+.round_btn{
+  border-radius: 18px!important;
+}
+
