@@ -1,6 +1,6 @@
 # Medical Website
 
-## 系统介绍（Introduction)
+## Introduction
 This is a website where patients can find doctors.
 
 Doctors can upload their information including licences,address and etc.
