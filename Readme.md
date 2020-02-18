@@ -9,7 +9,7 @@ Patients can find doctors based on their profile, can book an appointment.
 
 This website was developed using React.JS.
 
-## Screenshot
+## Screen
 
 ![Image1](Screenshot_1.png)
 ![Image2](Screenshot_2.png)
